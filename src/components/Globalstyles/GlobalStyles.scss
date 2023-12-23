@@ -4,10 +4,16 @@
 
 :root {
     --primary: #fe2c55;
+    //Layout
+
+    --header-height: 60px;
+    --content-width: 1150px;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
