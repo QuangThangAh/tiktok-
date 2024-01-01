@@ -18,11 +18,16 @@
     align-items: center;
 }
 
+.search,
+.search-result {
+    width: 361px;
+
+}
+
 .search {
     display: flex;
     position: relative;
     height: 46px;
-    width: 361px;
     background-color: rgba(22, 24, 35, 0.06);
     padding-left: 16px;
     border-radius: var(--border-radius);
@@ -56,7 +61,17 @@
     }
 }
 
+.search-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    color: rgba(22, 24, 35, 0.5);
 
+}
+
+.search-result {
+    transform: translateX(19px);
+}
 
 .clear,
 .loading {
